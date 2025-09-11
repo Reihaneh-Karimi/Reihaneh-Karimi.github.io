@@ -1,7 +1,7 @@
 ---
 title: "Posts by Category"
 layout: categories
-permalink: /code/
+permalink: /publication/
 author_profile: true
 ---
 -code
