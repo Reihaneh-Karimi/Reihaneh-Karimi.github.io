@@ -68,9 +68,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Reihaneh-Karimi"
-   -  label: "LinkedIn"
+    - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/reihaneh-karimi""
+      url: "https://www.linkedin.com/in/reihaneh-karimi"
 
 footer:
   links:
