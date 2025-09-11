@@ -15,7 +15,7 @@ permalink: /publication/
 <b><u>Karimi, R.</u>, Mousavi-Sadr, M., Zhoolideh Haghigh, M.H., Tabatabaei, F.S.</b> (2025).  
 <i>Machine Learning for Exoplanet Detection: A Comparative Analysis Using Kepler Data.</i>  
 Iranian Journal of Astronomy and Astrophysics.  
-<a href="https://arxiv.org/pdf/2508.09689" target="_blank">[Preprint]</a>
+<a href="https://arxiv.org/pdf/2508.09689" target="_blank">[Link]</a>
 </li>
 
 <li>
