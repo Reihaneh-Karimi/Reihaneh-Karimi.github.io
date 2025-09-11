@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Reihaneh Karimi"
-  avatar : "/assets/images/Profile.jpg"
-  bio    : "Graduated Physics Student, Interested in Astrophysics"
+  name  : "Reihaneh Karimi"
+  avatar: "/assets/images/Profile.jpg"
+  bio: "Graduated Physics Student, Interested in Astrophysics"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
