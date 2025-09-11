@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name  : "Reihaneh Karimi"
+  name : "Reihaneh Karimi"
   avatar: "/assets/images/Profile.jpg"
   bio: "Graduated Physics Student, Interested in Astrophysics"
   links:
@@ -70,7 +70,7 @@ author:
      # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Reihaneh-Karimi"
    -  label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/reihaneh-karimi""
@@ -82,7 +82,7 @@ footer:
       url: "https://www.linkedin.com/in/reihaneh-karimi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Reihaneh-Karimi"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.ipm.ac.ir/personalinfo.jsp?PeopleCode=IP2500030"
