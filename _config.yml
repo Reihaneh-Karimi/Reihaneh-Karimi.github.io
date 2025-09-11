@@ -70,7 +70,8 @@ author:
       url: "https://www.linkedin.com/in/reihaneh-karimi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Reihaneh-Karimi"
+     url: "https://github.com/Reihaneh-Karimi"
+
 footer:
    - label: "Website"
       icon: "fas fa-fw fa-li"
