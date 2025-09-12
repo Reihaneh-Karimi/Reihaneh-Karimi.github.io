@@ -40,7 +40,7 @@ gallery:
   - image: /assets/images/Image6.jpg
     alt: BPerseid Meteor Shower
     caption: |
-      Perseid meteor shower at Nthe ational Observatory of Iran
+      Perseid meteor shower at the National Observatory of Iran
   - image: /assets/images/Image7.jpg
     alt: Solar Eclipse
     caption: Solar Eclipse
@@ -62,22 +62,43 @@ gallery:
 }
 
 .gallery-item {
+  position: relative;
+  overflow: hidden;
   text-align: center;
 }
 
 .gallery-item img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  display: block;
   border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
 }
 
 .gallery-item figcaption {
-  margin-top: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 0.75rem;
   font-size: 0.9rem;
   line-height: 1.4;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: left;
 }
 
-/* Optional: alternate alignment per row (left, center, right) */
+.gallery-item:hover figcaption {
+  opacity: 1;
+}
+
+/* Automatic alignment left/center/right per row */
 .gallery-item:nth-child(3n+1) { justify-self: start; }
 .gallery-item:nth-child(3n+2) { justify-self: center; }
 .gallery-item:nth-child(3n+3) { justify-self: end; }
@@ -87,9 +108,7 @@ gallery:
   {% for item in page.gallery %}
     <figure class="gallery-item">
       <img src="{{ item.image }}" alt="{{ item.alt }}" />
-      <figcaption>
-        {{ item.caption | markdownify }}
-      </figcaption>
+      <figcaption>{{ item.caption | markdownify }}</figcaption>
     </figure>
   {% endfor %}
 </div>
