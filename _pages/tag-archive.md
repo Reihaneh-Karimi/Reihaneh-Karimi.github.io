@@ -65,13 +65,13 @@ gallery:
   position: relative;
   overflow: hidden;
   text-align: center;
+  border-radius: 4px;
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 4px;
   transition: transform 0.3s ease;
 }
 
@@ -79,23 +79,29 @@ gallery:
   transform: scale(1.05);
 }
 
+/* Caption: partially visible by default */
 .gallery-item figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5); /* partially visible */
   color: #fff;
-  padding: 0.75rem;
-  font-size: 0.9rem;
-  line-height: 1.4;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  max-height: 3rem; /* show only first line or two */
+  overflow: hidden;
+  transition: max-height 0.4s ease, background 0.4s ease, padding 0.4s ease;
   text-align: left;
+  cursor: pointer;
 }
 
+/* On hover: expand caption fully */
 .gallery-item:hover figcaption {
-  opacity: 1;
+  background: rgba(0, 0, 0, 0.8);
+  max-height: 15rem; /* expand to full caption */
+  padding: 0.75rem;
 }
 
 /* Automatic alignment left/center/right per row */
