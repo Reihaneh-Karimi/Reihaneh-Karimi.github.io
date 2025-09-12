@@ -8,11 +8,11 @@ gallery:
   - image: /assets/images/Image1.jpg
     alt: Milky Way
     caption: |
-      Exif: Milky Way among Kharaqan-Qazvin Twin Tower
+      Milky Way a
       3 panorama panels
       Camera: Canon 550D modified
-      Lens: Canon EF 8-15mm fisheye
-      ISO: 1600, f/4
+      Lens: Canon EF 8-15mm 
+      ISO: 1600
   - image: /assets/images/Image2.jpg
     alt: Moon
     caption: |
@@ -32,15 +32,14 @@ gallery:
   - image: /assets/images/Image5.jpg
     alt: Startrails 🌠
     caption: |
-      Startrails 🌠: half & two hours Earth's rotation
+      Startrails: half & two hours Earth's rotation
       Camera: Canon 600D
-      Lens: 35mm Samyang
-      Exposure: 10s, ISO: 1600
+      Lens: 35mm
       Total shots: 928
   - image: /assets/images/Image6.jpg
-    alt: BPerseid Meteor Shower
+    alt: Perseid Meteor Shower
     caption: |
-      BPerseid meteor shower at National Observatory of Iran
+      Perseid meteor shower at the National Observatory of Iran
   - image: /assets/images/Image7.jpg
     alt: Solar Eclipse
     caption: Solar Eclipse
@@ -85,8 +84,8 @@ gallery:
   left: 0;
   right: 0;
   padding: 0.75rem;
-  font-size: 0.65rem;
-  line-height: 1.0;
+  font-size: 0.85rem;
+  line-height: 1.3;
   color: #fff;
   text-align: left;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
