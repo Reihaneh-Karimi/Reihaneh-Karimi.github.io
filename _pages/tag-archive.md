@@ -64,7 +64,6 @@ gallery:
 .gallery-item {
   position: relative;
   overflow: hidden;
-  text-align: center;
   border-radius: 4px;
 }
 
@@ -79,29 +78,27 @@ gallery:
   transform: scale(1.05);
 }
 
-/* Caption: partially visible by default */
+/* Caption as gradient overlay at bottom */
 .gallery-item figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5); /* partially visible */
-  color: #fff;
-  padding: 0.5rem;
+  padding: 0.75rem;
   font-size: 0.85rem;
   line-height: 1.3;
-  max-height: 3rem; /* show only first line or two */
-  overflow: hidden;
-  transition: max-height 0.4s ease, background 0.4s ease, padding 0.4s ease;
+  color: #fff;
   text-align: left;
-  cursor: pointer;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  max-height: 4rem;
+  overflow: hidden;
+  transition: max-height 0.4s ease, background 0.4s ease;
 }
 
 /* On hover: expand caption fully */
 .gallery-item:hover figcaption {
-  background: rgba(0, 0, 0, 0.8);
-  max-height: 15rem; /* expand to full caption */
-  padding: 0.75rem;
+  max-height: 12rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
 }
 
 /* Automatic alignment left/center/right per row */
