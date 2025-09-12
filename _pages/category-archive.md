@@ -1,6 +1,6 @@
 ---
 permalink: /publication/
-layout: page
+layout: single
 ---
 
 ## Publications
