@@ -78,40 +78,28 @@ gallery:
   transform: scale(1.05);
 }
 
-/* Caption overlay: always partially visible */
+/* Caption as gradient overlay at bottom */
 .gallery-item figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.85rem;
-  line-height: 1.3;
+  padding: 0.75rem;
+  font-size: 0.65rem;
+  line-height: 1.0;
   color: #fff;
   text-align: left;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-  transform: translateY(50%);
-  opacity: 0.9;
-  transition: transform 0.4s ease, opacity 0.4s ease, background 0.4s ease;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  max-height: 4rem;
+  overflow: hidden;
+  transition: max-height 0.4s ease, background 0.4s ease;
 }
 
-/* On hover: slide up and fade in */
+/* On hover: expand caption fully */
 .gallery-item:hover figcaption {
-  transform: translateY(0%);
-  opacity: 1;
+  max-height: 12rem;
   background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
 }
-
-/* Sequential fade-in effect */
-.gallery-item:nth-child(1):hover figcaption { transition-delay: 0s; }
-.gallery-item:nth-child(2):hover figcaption { transition-delay: 0.05s; }
-.gallery-item:nth-child(3):hover figcaption { transition-delay: 0.1s; }
-.gallery-item:nth-child(4):hover figcaption { transition-delay: 0.15s; }
-.gallery-item:nth-child(5):hover figcaption { transition-delay: 0.2s; }
-.gallery-item:nth-child(6):hover figcaption { transition-delay: 0.25s; }
-.gallery-item:nth-child(7):hover figcaption { transition-delay: 0.3s; }
-.gallery-item:nth-child(8):hover figcaption { transition-delay: 0.35s; }
-.gallery-item:nth-child(9):hover figcaption { transition-delay: 0.4s; }
 
 /* Automatic alignment left/center/right per row */
 .gallery-item:nth-child(3n+1) { justify-self: start; }
