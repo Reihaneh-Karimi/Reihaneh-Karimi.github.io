@@ -40,7 +40,7 @@ gallery:
   - image: /assets/images/Image6.jpg
     alt: BPerseid Meteor Shower
     caption: |
-      Perseid meteor shower at the National Observatory of Iran
+      BPerseid meteor shower at National Observatory of Iran
   - image: /assets/images/Image7.jpg
     alt: Solar Eclipse
     caption: Solar Eclipse
@@ -78,7 +78,7 @@ gallery:
   transform: scale(1.05);
 }
 
-/* Caption overlay always partially visible at bottom */
+/* Caption overlay: always partially visible */
 .gallery-item figcaption {
   position: absolute;
   bottom: 0;
@@ -90,16 +90,28 @@ gallery:
   color: #fff;
   text-align: left;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-  transform: translateY(50%); /* partially hidden */
-  transition: transform 0.4s ease, background 0.4s ease;
-  pointer-events: none; /* prevents blocking hover */
+  transform: translateY(50%);
+  opacity: 0.9;
+  transition: transform 0.4s ease, opacity 0.4s ease, background 0.4s ease;
 }
 
-/* On hover: slide up fully */
+/* On hover: slide up and fade in */
 .gallery-item:hover figcaption {
   transform: translateY(0%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+  opacity: 1;
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
 }
+
+/* Sequential fade-in effect */
+.gallery-item:nth-child(1):hover figcaption { transition-delay: 0s; }
+.gallery-item:nth-child(2):hover figcaption { transition-delay: 0.05s; }
+.gallery-item:nth-child(3):hover figcaption { transition-delay: 0.1s; }
+.gallery-item:nth-child(4):hover figcaption { transition-delay: 0.15s; }
+.gallery-item:nth-child(5):hover figcaption { transition-delay: 0.2s; }
+.gallery-item:nth-child(6):hover figcaption { transition-delay: 0.25s; }
+.gallery-item:nth-child(7):hover figcaption { transition-delay: 0.3s; }
+.gallery-item:nth-child(8):hover figcaption { transition-delay: 0.35s; }
+.gallery-item:nth-child(9):hover figcaption { transition-delay: 0.4s; }
 
 /* Automatic alignment left/center/right per row */
 .gallery-item:nth-child(3n+1) { justify-self: start; }
