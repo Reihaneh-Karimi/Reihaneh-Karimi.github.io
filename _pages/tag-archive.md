@@ -13,28 +13,17 @@ row1:
     alt: "Gallery image 2"
     title: "Image 2"
     excerpt: ""
-
-row2:
   - image_path: /assets/images/Image3.jpg
     alt: "Gallery image 3"
     title: "Image 3"
     excerpt: ""
-  - image_path: /assets/images/Image4.jpg
-    alt: "Gallery image 4"
-    title: "Image 4"
-    excerpt: ""
 
-row3:
-  - image_path: /assets/images/Image5.jpg
-    alt: "Gallery image 5"
-    title: "Image 5"
-    excerpt: ""
+
+row2:
   - image_path: /assets/images/Image6.jpg
     alt: "Gallery image 6"
     title: "Image 6"
     excerpt: ""
-
-row4:
   - image_path: /assets/images/Image7.jpg
     alt: "Gallery image 7"
     title: "Image 7"
@@ -47,5 +36,3 @@ row4:
 
 {% include feature_row id="row1" type="center" %}
 {% include feature_row id="row2" type="center" %}
-{% include feature_row id="row3" type="center" %}
-{% include feature_row id="row4" type="center" %}
