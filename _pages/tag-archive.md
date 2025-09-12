@@ -78,27 +78,27 @@ gallery:
   transform: scale(1.05);
 }
 
-/* Caption as gradient overlay at bottom */
+/* Caption overlay always partially visible at bottom */
 .gallery-item figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0.75rem;
+  padding: 0.5rem 0.75rem;
   font-size: 0.85rem;
   line-height: 1.3;
   color: #fff;
   text-align: left;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-  max-height: 4rem;
-  overflow: hidden;
-  transition: max-height 0.4s ease, background 0.4s ease;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  transform: translateY(50%); /* partially hidden */
+  transition: transform 0.4s ease, background 0.4s ease;
+  pointer-events: none; /* prevents blocking hover */
 }
 
-/* On hover: expand caption fully */
+/* On hover: slide up fully */
 .gallery-item:hover figcaption {
-  max-height: 12rem;
-  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+  transform: translateY(0%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
 }
 
 /* Automatic alignment left/center/right per row */
