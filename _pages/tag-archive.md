@@ -84,8 +84,8 @@ gallery:
   left: 0;
   right: 0;
   padding: 0.75rem;
-  font-size: 0.85rem;
-  line-height: 1.3;
+  font-size: 0.65rem;
+  line-height: 1.2;
   color: #fff;
   text-align: left;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
@@ -96,7 +96,7 @@ gallery:
 
 /* On hover: expand caption fully */
 .gallery-item:hover figcaption {
-  max-height: 12rem;
+  max-height: 10rem;
   background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
 }
 
