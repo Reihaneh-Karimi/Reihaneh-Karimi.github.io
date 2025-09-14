@@ -8,46 +8,46 @@ gallery:
   - image: /assets/images/Image1.jpg
     alt: "Milky Way"
     caption: |
-      Milky Way — 3-panel panorama  
-  - image: /assets/images/Image2.jpg
-    alt: "Moon"
+      Milky Way — 3-panel panorama
+  - image: /assets/images/Image5.jpg
+    alt: "Startrails 🌠"
     caption: |
-      Telescope: 150 mm Skywatcher  
-      Mount: EQ3-2
+      Startrails — ~2 h Earth rotation  
+      Camera: Canon 600D, 35 mm lens  
+      Total shots: 928  
+  - image: /assets/images/Image6.jpg
+    alt: "Perseid Meteor Shower"
+    caption: |
+      Perseid meteor shower at the National Observatory of Iran
   - image: /assets/images/Image3.jpg
     alt: "Perseid Meteor Showers"
     caption: |
       Perseid Meteor Showers next to Venus  
       Date: 11 August 2020
+   - image: /assets/images/Image9.jpg
+    alt: "Super Full Moon"
+    caption: |
+      Super Full Moon — 17 Sep 2024
+   - image: /assets/images/Image2.jpg
+    alt: "Moon"
+    caption: |
+      Telescope: 150 mm Skywatcher  
+      Mount: EQ3-2
   - image: /assets/images/Image4.jpg
     alt: "Lunar Craters"
     caption: |
       Telescope: Celestron 8" XLT  
       Camera: ZWO ASI290MC  
       Mount: HEQ5 PRO
-  - image: /assets/images/Image5.jpg
-    alt: "Startrails 🌠"
-    caption: |
-      Startrails — ~2 h Earth rotation  
-      Camera: Canon 600D, 35 mm lens  
-      Total shots: 928
-  - image: /assets/images/Image6.jpg
-    alt: "Perseid Meteor Shower"
-    caption: |
-      Perseid meteor shower at the National Observatory of Iran
+  - image: /assets/images/Image11.jpg
+    alt: "Lunar Crater"
+    caption: Newton's Lunar Crater
   - image: /assets/images/Image7.jpg
     alt: "Solar Eclipse"
     caption: Solar Eclipse
   - image: /assets/images/Image8.jpg
     alt: "Leiden Observatory"
     caption: Leiden Observatory
-  - image: /assets/images/Image9.jpg
-    alt: "Super Full Moon"
-    caption: |
-      Super Full Moon — 17 Sep 2024
-  - image: /assets/images/Image11.jpg
-    alt: "Lunar Crater"
-    caption: Newton's Lunar Crater
   - image: /assets/images/Image10.jpg
     alt: "Radio Telescope"
     caption: Westerbork Synthesis Radio Telescope
