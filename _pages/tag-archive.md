@@ -66,13 +66,14 @@ gallery:
 .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 4px;
+  text-align: center;
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 4px;
   transition: transform 0.3s ease;
 }
 
@@ -80,30 +81,23 @@ gallery:
   transform: scale(1.05);
 }
 
-/* Caption: gradient overlay at bottom, slides up on hover */
 .gallery-item figcaption {
   position: absolute;
-  bottom: -2rem; /* start slightly hidden */
+  bottom: 0;
   left: 0;
   right: 0;
-  padding: 0.75rem;
-  font-size: 0.85rem;
-  line-height: 1.3;
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  opacity: 0;
+  transition: opacity 0.3s ease;
   text-align: left;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-  max-height: 4rem;
-  overflow: hidden;
-  transition:
-    bottom 0.4s ease,
-    max-height 0.4s ease,
-    background 0.4s ease;
 }
 
 .gallery-item:hover figcaption {
-  bottom: 0; /* slide up into full view */
-  max-height: 12rem;
-  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+  opacity: 1;
 }
 
 /* Automatic alignment left/center/right per row */
