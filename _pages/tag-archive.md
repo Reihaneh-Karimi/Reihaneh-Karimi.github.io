@@ -5,16 +5,16 @@ layout: single
 author_profile: true
 
 gallery:
-  - image: /assets/images/Image1.jpg
-    alt: "Milky Way"
-    caption: |
-      Milky Way — 3-panel panorama
   - image: /assets/images/Image5.jpg
     alt: "Startrails 🌠"
     caption: |
       Startrails — ~2 h Earth rotation  
       Camera: Canon 600D, 35 mm lens  
       Total shots: 928
+  - image: /assets/images/Image1.jpg
+    alt: "Milky Way"
+    caption: |
+      Milky Way — 3-panel panorama
   - image: /assets/images/Image6.jpg
     alt: "Perseid Meteor Shower"
     caption: |
