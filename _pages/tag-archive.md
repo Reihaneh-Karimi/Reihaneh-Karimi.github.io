@@ -14,7 +14,7 @@ gallery:
     caption: |
       Startrails — ~2 h Earth rotation  
       Camera: Canon 600D, 35 mm lens  
-      Total shots: 928  
+      Total shots: 928
   - image: /assets/images/Image6.jpg
     alt: "Perseid Meteor Shower"
     caption: |
@@ -24,11 +24,11 @@ gallery:
     caption: |
       Perseid Meteor Showers next to Venus  
       Date: 11 August 2020
-   - image: /assets/images/Image9.jpg
+  - image: /assets/images/Image9.jpg
     alt: "Super Full Moon"
     caption: |
       Super Full Moon — 17 Sep 2024
-   - image: /assets/images/Image2.jpg
+  - image: /assets/images/Image2.jpg
     alt: "Moon"
     caption: |
       Telescope: 150 mm Skywatcher  
