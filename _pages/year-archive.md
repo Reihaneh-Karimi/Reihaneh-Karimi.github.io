@@ -24,7 +24,7 @@ permalink: /project/
 
   <!-- Project 2 -->
   <div class="project-card">
-    <img src="/assets/images/hpc.jpg" alt="Hyperspectral Camera Imaging">
+    <img src="/assets/images/HPC.jpg" alt="Hyperspectral Camera Imaging">
     <h3>Hyperspectral Camera Imaging (Leiden University, Jul 2024 – Aug 2024)</h3>
     <p>
       During a short research placement at the Leiden Quantum Matter & Optics Department, I worked with a
