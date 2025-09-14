@@ -1,10 +1,8 @@
 ---
-layout: single
+layout: default
 title: "My Research Projects"
 permalink: /project/
 ---
-
-<h1>My Research Projects</h1>
 
 <section class="projects-gallery">
 
