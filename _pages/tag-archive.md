@@ -55,7 +55,7 @@ gallery:
     alt: "RT"
     caption: Westerbork Synthesis Radio Telescope
 ---
-
+- click on the image to view more information!
 <style>
 .gallery-grid {
   display: grid;
