@@ -7,7 +7,7 @@ layout: single
 title: "Reihaneh Karimi – Home Page"
 header:
   overlay_image: /assets/images/Header.jpg
-  caption: "Photo credit"
+  caption: "Photo credit: ChatGPT"
 ---
 
 <div style="display:flex; align-items:center; gap:20px; margin-top:20px;">
