@@ -4,9 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
-title: "Welcome to My Page"
+title: "Reihaneh Karimi – Home Page"
 header:
-  overlay_image: /assets/images/header.jpg
+  overlay_image: /assets/images/Header.jpg
   caption: "Photo credit"
 ---
 
@@ -20,7 +20,7 @@ header:
   </div>
 </div>
 <br> 
-I am an aspiring research student in astrophysics with a background in observational and computational astronomy. My research interests span exoplanet studies, galaxy evolution, and AGN feedback, with a particular focus on data analysis.
+I am an aspiring research student in astrophysics with a background in observational and computational astronomy. My research interests span exoplanet studies, galaxy evolution, and AGN feedback, with a particular focus on data analysis and machine learning.
 
 I have gained hands-on experience in radio astronomy and hyperspectral imaging data analysis. Additionally, I have used artificial neural networks for redshift estimation of galaxies as a part of my bachelor's project.
 
