@@ -7,34 +7,38 @@ author_profile: true
 
 ### My GitHub Projects
 
-<div class="grid__wrapper">
+<!-- ML Hyperparameter Tuning Card -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 2rem;">
 
-<div class="grid__item">
-  <h3>
-    <a href="https://github.com/Reihaneh-Karimi/ML-Hyperparameter-tuning">ML-Hyperparameter-tuning</a>
-  </h3>
+  <!-- Image on the left -->
+  <div style="flex: 1; min-width: 200px; margin-right: 1rem;">
+    <a href="https://github.com/Reihaneh-Karimi/ML-Hyperparameter-tuning">
+      <img src="/assets/images/ml_hyperparameter.png" alt="ML Hyperparameter Tuning" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+  </div>
 
-  <!-- GitHub badges -->
-  <p>
-    <img src="https://img.shields.io/github/stars/Reihaneh-Karimi/ML-Hyperparameter-tuning?style=social" alt="GitHub stars">
-    <img src="https://img.shields.io/github/forks/Reihaneh-Karimi/ML-Hyperparameter-tuning?style=social" alt="GitHub forks">
-  </p>
+  <!-- Text on the right -->
+  <div style="flex: 2; min-width: 200px;">
+    <h3><a href="https://github.com/Reihaneh-Karimi/ML-Hyperparameter-tuning">ML-Hyperparameter-tuning</a></h3>
+    <p>Functional code for hyperparameter tuning, cross-validation, and learning-curve analysis on four popular ML classifiers: Decision Tree, Random Forest, Logistic Regression, and K-Nearest Neighbors (KNN).</p>
+  </div>
 
-  <p>Functional code for hyperparameter tuning, cross-validation, and learning-curve analysis on four popular ML classifiers: Decision Tree, Random Forest, Logistic Regression, and K-Nearest Neighbors (KNN).</p>
 </div>
 
-<div class="grid__item">
-  <h3>
-    <a href="https://github.com/Reihaneh-Karimi/Numerical_Computations_Function">Numerical_Computations_Function</a>
-  </h3>
+<!-- Numerical Computations Card -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 2rem;">
 
-  <!-- GitHub badges -->
-  <p>
-    <img src="https://img.shields.io/github/stars/Reihaneh-Karimi/Numerical_Computations_Function?style=social" alt="GitHub stars">
-    <img src="https://img.shields.io/github/forks/Reihaneh-Karimi/Numerical_Computations_Function?style=social" alt="GitHub forks">
-  </p>
+  <!-- Image on the left -->
+  <div style="flex: 1; min-width: 200px; margin-right: 1rem;">
+    <a href="https://github.com/Reihaneh-Karimi/Numerical_Computations_Function">
+      <img src="/assets/images/numerical_computations.png" alt="Numerical Computations" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+  </div>
 
-  <p>Collection of numerical methods implemented in Python—root finding, integration, interpolation and more, for quick reuse in computational projects.</p>
-</div>
+  <!-- Text on the right -->
+  <div style="flex: 2; min-width: 200px;">
+    <h3><a href="https://github.com/Reihaneh-Karimi/Numerical_Computations_Function">Numerical_Computations_Function</a></h3>
+    <p>Collection of numerical methods implemented in Python—root finding, integration, interpolation and more, for quick reuse in computational projects.</p>
+  </div>
 
 </div>
