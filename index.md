@@ -39,7 +39,7 @@ header:
 
 <!-- About Section -->
 <p>
-I am an aspiring research student in astrophysics with a background in observational and computational astronomy. My research interests span Galaxy Evolution, Magnetic Field, and AGN feedback, with a particular focus on data analysis and machine learning.
+I am an aspiring research student in astrophysics with a background in observational and computational astronomy. My research interests span Galaxy Evolution, Magnetic Field, and Exoplanet studies, with a particular focus on data analysis and machine learning.
 </p>
 
 <p>
