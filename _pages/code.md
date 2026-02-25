@@ -43,3 +43,16 @@ author_profile: true
     <p>Collection of numerical methods implemented in Python—root finding, integration, interpolation and more, for quick reuse in computational projects.</p>
   </div>
 </div>
+
+<!--Pencil Code Tutorial-->
+<div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 2rem;">
+  <div style="flex: 1; min-width: 200px; margin-right: 1rem;">
+    <a href="https://github.com/Reihaneh-Karimi/pencil-code-tutorial/blob/main/Tutorial.md">
+      <img src="/assets/images/Pencil.png" alt="Pencil Code Tutorial" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+  </div>
+  <div style="flex: 2; min-width: 200px;">
+    <h3><a href="https://github.com/Reihaneh-Karimi/pencil-code-tutorial/blob/main/Tutorial.md">Pencil Code Tutorial</a></h3>
+    <p>Step-by-step guide to running your first Pencil Code simulation.</p>
+  </div>
+</div>
